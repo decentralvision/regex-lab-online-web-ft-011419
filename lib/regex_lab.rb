@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  puts word.scan(/\A[aeiou]/).class
+  puts word.scan(/\A[aeiou]/).empty?
   word.scan(/\A[aeiou]/).empty? ? false : true
 end
 

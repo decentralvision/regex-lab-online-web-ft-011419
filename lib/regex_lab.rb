@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   puts word
-  puts word.scan(/\A[aeiou]/).length
+  puts word.scan(/\A([aeiou]|[AEIOU])/).length
   word.scan(/\A[aeiou]/) ? true : false
 end
 
